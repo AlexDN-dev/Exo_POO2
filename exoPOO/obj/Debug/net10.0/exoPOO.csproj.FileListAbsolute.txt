@@ -12,3 +12,4 @@ C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\refint\exoPOO.dl
 C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.pdb
 C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.genruntimeconfig.cache
 C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\ref\exoPOO.dll
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.sourcelink.json
