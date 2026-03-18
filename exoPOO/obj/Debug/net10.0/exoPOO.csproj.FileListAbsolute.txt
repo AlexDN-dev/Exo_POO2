@@ -1,0 +1,14 @@
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\bin\Debug\net10.0\exoPOO.exe
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\bin\Debug\net10.0\exoPOO.deps.json
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\bin\Debug\net10.0\exoPOO.runtimeconfig.json
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\bin\Debug\net10.0\exoPOO.dll
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\bin\Debug\net10.0\exoPOO.pdb
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.AssemblyInfoInputs.cache
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.AssemblyInfo.cs
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.csproj.CoreCompileInputs.cache
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.dll
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\refint\exoPOO.dll
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.pdb
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\exoPOO.genruntimeconfig.cache
+C:\Users\a.deneve\RiderProjects\exoPOO\exoPOO\obj\Debug\net10.0\ref\exoPOO.dll
