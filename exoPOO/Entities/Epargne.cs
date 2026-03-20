@@ -2,7 +2,7 @@
 
 public class Epargne : Compte
 {
-    private DateTime DateDernierRetrait { get; set; }
+    public DateTime DateDernierRetrait { get; private set; }
     
     public Epargne(string numero, Personne titulaire, DateTime dateDernierRetrait) : base(numero, titulaire)
     {

@@ -4,9 +4,9 @@ namespace exoPOO.Entities;
 
 public abstract class Compte : IBanker
 {
-    public string Numero { get; set; }
+    public string Numero { get; private set; }
     public double Solde { get; protected set; }
-    public Personne Titulaire { get; set; }
+    public Personne Titulaire { get; private set; }
 
     public Compte(string numero, Personne titulaire)
     {
