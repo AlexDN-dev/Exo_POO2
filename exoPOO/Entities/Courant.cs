@@ -9,6 +9,8 @@ public class Courant : Compte
                 get => _creditLine;
                 private set { CreditLine = value >= 0 ? value : CreditLine; }
         }
+        
+        
 
         public override void Retrait(double montant)
         {
@@ -26,5 +28,15 @@ public class Courant : Compte
 
                 Solde -= montant;
 
+        }
+
+        protected override double CalculInteret()
+        {
+                if (Solde > 0)
+                {
+                        return (Solde / 100) * 3;
+                }
+
+                return (Solde / 100) * 9.75;
         }
 }

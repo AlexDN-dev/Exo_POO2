@@ -7,5 +7,5 @@ c1.Depot(200);
 
 banque.AjouterCompte(c1);
 banque.ShowAccountList();
-banque.RetirerCompte(c1.Numero);
+c1.AppliquerInteret();
 banque.ShowAccountList();

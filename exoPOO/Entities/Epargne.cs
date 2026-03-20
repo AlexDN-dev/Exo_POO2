@@ -21,4 +21,9 @@ public class Epargne : Compte
         Solde -= montant;
         DateDernierRetrait = new DateTime().Date;
     }
+
+    protected override double CalculInteret()
+    {
+        return (Solde / 100) * 4.5;
+    }
 }
