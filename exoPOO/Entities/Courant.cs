@@ -4,6 +4,15 @@ public class Courant : Compte
 {
         private double _creditLine;
 
+        public Courant(string numero, Personne titulaire) : base(numero, titulaire)
+        {
+        }
+
+        public Courant(string numero, Personne titulaire, double solde, double creditLine) : base(numero, titulaire, solde)
+        {
+                _creditLine = creditLine;
+        }
+
         public double CreditLine
         {
                 get => _creditLine;

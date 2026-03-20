@@ -2,7 +2,7 @@
 
 public class Banque
 {
-    public string Nom { get; set; }
+    public string Nom { get; init; }
     private Dictionary<string, Compte> _listeComptes  = new Dictionary<string, Compte>();
     
     public Banque(string nom)

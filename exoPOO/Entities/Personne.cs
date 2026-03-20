@@ -2,9 +2,9 @@
 
 public class Personne
 {
-    public string Lastname { get; set; }
-    public string Firstname { get; set; }
-    public DateOnly Birthday { get; set; }
+    public string Lastname { get; init; }
+    public string Firstname { get; init; }
+    public DateOnly Birthday { get; init; }
 
     public override string ToString()
     {
