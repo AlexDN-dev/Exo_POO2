@@ -1,4 +1,6 @@
-﻿namespace exoPOO.Entities;
+﻿using exoPOO.Exceptions;
+
+namespace exoPOO.Entities;
 
 public class Epargne : Compte
 {
@@ -18,14 +20,12 @@ public class Epargne : Compte
     {
         if (montant <= 0)
         {
-            Console.WriteLine($"le montant doit etre supérieur à 0 ");
-            return;
+            throw new SoldeInsuffisantException("Le montant du retrait doit être positif.");
         }
 
         if (Solde - montant > Solde)
         {
-            Console.WriteLine("Pas assez d'argent pour retirer ce montant");
-            return;
+            throw new SoldeInsuffisantException("Il n'y a pas assez d'argent pour retirer ce montant");
         }
 
         Solde -= montant;

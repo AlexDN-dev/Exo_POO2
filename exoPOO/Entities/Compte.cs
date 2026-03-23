@@ -29,7 +29,7 @@ public abstract class Compte : IBanker
     {
         if (montant <= 0)
         {
-            Console.WriteLine("Le montant doit être supérieur à 0");
+            throw new ArgumentOutOfRangeException();
             return;
         }
 
