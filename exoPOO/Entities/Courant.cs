@@ -1,4 +1,6 @@
-﻿namespace exoPOO.Entities;
+﻿using exoPOO.Exceptions;
+
+namespace exoPOO.Entities;
 
 public class Courant : Compte
 {
@@ -8,8 +10,12 @@ public class Courant : Compte
         {
         }
 
-        public Courant(string numero, Personne titulaire, double solde, double creditLine) : base(numero, titulaire, solde)
+        public Courant(string numero, Personne titulaire, double creditLine) : base(numero, titulaire)
         {
+                if (creditLine <= 0)
+                {
+                        throw new InvalidOperationException();
+                }
                 _creditLine = creditLine;
         }
 
@@ -25,14 +31,13 @@ public class Courant : Compte
         {
                 if (montant <= 0)
                 {
-                        Console.WriteLine($"le montant doit etre supérieur à 0 ");
-                        return;
+                        throw new SoldeInsuffisantException("Le montant du retrait doit être positif.");
                 }
 
-                if (Solde - montant > Solde + CreditLine)
+                Console.WriteLine($"{Solde - montant} - {0- CreditLine}");
+                if (Solde - montant < 0 - CreditLine)
                 {
-                        Console.WriteLine("Pas assez d'argent pour retirer ce montant");
-                        return;
+                        throw new SoldeInsuffisantException("Il n'y a pas assez d'argent pour retirer ce montant");
                 }
 
                 Solde -= montant;
